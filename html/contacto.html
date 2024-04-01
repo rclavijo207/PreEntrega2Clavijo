@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto | AnimalCoffee</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <div class="header-container">
+                <div class="header-logo">
+                    <a href="../index.html"><img src="../imgs/animalcoffee-white.png" alt="Logo AnimalCoffee" class="logo-image"></a>
+                </div>
+                <ul class="header-links">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="mascotas.html">MASCOTAS</a></li>
+                    <li><a href="menu.html">MENÚ</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Contenido del sitio -->
+    <main>
+        <div class="page-title">
+            <img src="../imgs/icons/icono-placeholder.png" class="img-icon" alt="Icono">
+            <h1>CONTACTO</h1>
+            <img src="../imgs/icons/icono-placeholder.png" class="img-icon" alt="Icono">
+        </div>
+        <!-- Formulario para agendas -->
+        <section>
+            <div class="booking-container">
+                <div class="booking-info">
+                    <img src="../imgs/imagen4-placeholder.png" class="booking-image" alt="Imagen de contacto">
+                    <div class="booking-text">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veritatis earum. Beatae illum excepturi, asperiores libero quisquam neque aut eligendi animi dolorum corrupti quod possimus, obcaecati harum ipsa architecto. Consectetur.
+                        Ratione, amet voluptate earum consequuntur assumenda perferendis facere atque mollitia? Aperiam labore ipsa officiis repellat, eum in nam pariatur illum molestias praesentium quae hic nulla dolore a? Ipsa, nisi eos.</p>
+                    </div>
+                </div>
+                <form class="booking-form" action="/booking.php" method="post">
+                    <div class="form-data1">
+                        <label for="#bookingName">¿Cómo te llamas?</label>
+                        <input type="text" placeholder="Nombre y Apellido" name="bookingName" id="name" class="form-text"><br>
+                        <label for="#bookingPhone">¿Celular o teléfono fijo?</label>
+                        <input type="text" placeholder="123456789" name="bookingPhone" id="phone" class="form-text"><br>
+                        <label for="#BookingVisitors">¿Cuántos nos visitan?</label>
+                        <select name="BookingVisitors" id="visitors">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="+5">Más de 5 (aclarar en detalles)</option>
+                        </select>
+                    </div>
+                    <div class="form-data2">
+                        <label for="#hours-1">Una hora</label>
+                        <input type="radio" name="hours-1" id="hours-1" value="1"><br>
+                        <label for="#hours-2">Dos horas</label>
+                        <input type="radio" name="hours-1" id="hours-2" value="2"><br>
+                    </div>
+                    <div class="form-data3">
+                        <textarea name="details" placeholder="Escriba aquí los detalles sobre su reserva" id="details" cols="30" rows="10" class="form-textarea"></textarea><br>
+                        <div class="form-buttons">
+                            <input type="reset" value="Restablecer" class="reset-button">
+                        <input type="submit" value="Reservar" class="submit-button">
+                    
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Formulario de contacto -->
+        <section>
+            <div class="contact-container">
+
+            </div>
+        </section>
+    </main>
+    <!-- Pie -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-items">
+                <!-- Logo de AnimalCoffee -->
+                <div class="footer-logo">
+                    <img src="../imgs/animalcoffee-white.png" alt="Letras AnimalCoffee" class="footer-image">
+                </div>
+                <!-- Información de empresa -->
+                <div class="footer-info">
+                    <ul>
+                        <li class="info-box">
+                            <p>Av. Julio Herrera y Reissing</p><p>11200, Montevideo</p>
+                            <p>+598 123456789</p> 
+                        </li>
+                        <li class="info-box">
+                            <p>Lunes a Viernes, 09:00 a 19:00</p><p>Sábado, 09:00 a 14:00</p>
+                            <p>animalcoffee@gmail.com</p>
+                        </li>
+                    </ul>
+                    <!-- Redes sociales -->
+                    <div class="footer-socials">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/"><img src="../imgs/icons/icons8-facebook-line-100.png" alt="Logo Facebook" class="img-icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/"><img src="../imgs/icons/icons8-instagram-line-100.png" alt="Logo Instagram" class="img-icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/"><img src="../imgs/icons/icons8-twitter-line-100.png" alt="Logo Twitter" class="img-icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/es/"><img src="../imgs/icons/icons8-tiktok-line-100.png" alt="Logo WhatsApp" class="img-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>Copyright ©   2024    ANIMALCOFFEE</p>
+                <p>Made by RoB</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
